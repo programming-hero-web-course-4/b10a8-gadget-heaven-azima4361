@@ -19,7 +19,7 @@ const Home = () => {
                 <p className="text-center text-4xl font-bold mb-20">Explore Cutting-Edge Gadgets</p>
 
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
-                    <div className="md:col-span-1">
+                    <div className="md:col-span-1 ">
                         <Category categories={categories}></Category>
                     </div>
                     <div className="md:col-span-4">

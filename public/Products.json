@@ -1,0 +1,168 @@
+ [
+      {
+        "product_id": 1,
+        "product_title": "MacBook Pro",
+        "product_image": "https://i.ibb.co.com/5nV74fk/computer-1.png",
+        "category": "Computers",
+        "price": 1999.99,
+        "description": "The Apple MacBook Pro is a powerful laptop with the M1 chip.",
+        "specification": [
+          "16-inch Retina Display",
+          "Apple M1 Chip",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "Apple"
+      },
+      {
+        "product_id": 2,
+        "product_title": "Dell XPS 13",
+        "product_image": "https://i.ibb.co.com/853hgRj/computer-2.jpg",
+        "category": "Computers",
+        "price": 1199.99,
+        "description": "The Dell XPS 13 is a sleek and portable laptop with a 4K display.",
+        "specification": [
+          "13.3-inch 4K UHD Display",
+          "Intel Core i7 12th Gen",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "Dell"
+      },
+      {
+        "product_id": 3,
+        "product_title": "Samsung Galaxy S23",
+        "product_image": "https://i.ibb.co.com/LrMc1vV/phone-1.jpg",
+        "category": "Phones",
+        "price": 799.99,
+        "description": "The latest Samsung Galaxy S23 with cutting-edge features.",
+        "specification": [
+          "6.1-inch AMOLED Display",
+          "Snapdragon 8 Gen 2",
+          "8GB RAM",
+          "256GB Storage"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "Samsung"
+      },
+      {
+        "product_id": 4,
+        "product_title": "iPhone 15 Pro",
+        "product_image": "https://i.ibb.co.com/TgsDYZr/phone-2.jpg",
+        "category": "Phones",
+        "price": 999.99,
+        "description": "The iPhone 15 Pro offers exceptional performance and design.",
+        "specification": [
+          "6.1-inch Super Retina XDR Display",
+          "A17 Bionic Chip",
+          "128GB Storage",
+          "Ceramic Shield"
+        ],
+        "availability": true,
+        "rating": 4.9,
+        "brand": "Apple"
+      },
+      {
+        "product_id": 5,
+        "product_title": "Apple Watch Series 9",
+        "product_image": "https://i.ibb.co.com/YkvySnB/watch-1.jpg",
+        "category": "Smart Watches",
+        "price": 399.99,
+        "description": "Stay connected with the latest Apple Watch Series 9.",
+        "specification": [
+          "1.9-inch Always-On Retina Display",
+          "Advanced health tracking",
+          "Water-resistant"
+        ],
+        "availability": false,
+        "rating": 4.6,
+        "brand": "Apple"
+      },
+      {
+        "product_id": 6,
+        "product_title": "Samsung Galaxy Watch 6",
+        "product_image": "https://i.ibb.co.com/bgPrJws/watch-2.jpg",
+        "category": "Smart Watches",
+        "price": 349.99,
+        "description": "A smart companion for your daily fitness and productivity needs.",
+        "specification": [
+          "1.4-inch AMOLED Display",
+          "Fitness and Sleep Tracking",
+          "GPS and LTE Connectivity"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "Samsung"
+      },
+      {
+        "product_id": 7,
+        "product_title": "Anker PowerPort III",
+        "product_image": "https://i.ibb.co.com/M8s0KZF/charger-1.jpg",
+        "category": "Chargers",
+        "price": 29.99,
+        "description": "Fast and compact charger compatible with most devices.",
+        "specification": [
+          "USB-C Power Delivery",
+          "20W output",
+          "Compact design"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "Anker"
+      },
+      {
+        "product_id": 8,
+        "product_title": "RAVPower 20000mAh",
+        "product_image": "https://i.ibb.co.com/jymqxQg/charger-2.jpg",
+        "category": "Power Banks",
+        "price": 49.99,
+        "description": "High-capacity power bank for charging on the go.",
+        "specification": [
+          "20000mAh capacity",
+          "Dual USB-A ports",
+          "Fast charging"
+        ],
+        "availability": true,
+        "rating": 4.3,
+        "brand": "RAVPower"
+      },
+      {
+        "product_id": 9,
+        "product_title": "Belkin BoostCharge Pro",
+        "product_image": "https://i.ibb.co.com/vc7vJRX/powerbank-1.jpg",
+        "category": "Chargers",
+        "price": 39.99,
+        "description": "Premium MagSafe wireless charging pad for Apple devices.",
+        "specification": [
+          "15W MagSafe Charging",
+          "Non-slip surface",
+          "Compact design"
+        ],
+        "availability": true,
+        "rating": 4.4,
+        "brand": "Belkin"
+      },
+      {
+        "product_id": 10,
+        "product_title": "Xiaomi Mi Power Bank 3",
+        "product_image": "https://i.ibb.co.com/WkD2C5s/powerbank-2.jpg",
+        "category": "Power Banks",
+        "price": 39.99,
+        "description": "Compact and reliable power bank with multiple ports.",
+        "specification": [
+          "20000mAh capacity",
+          "USB-C and USB-A ports",
+          "18W fast charging"
+        ],
+        "availability": true,
+        "rating": 4.2,
+        "brand": "Xiaomi"
+      }
+    ]
+  
+  
