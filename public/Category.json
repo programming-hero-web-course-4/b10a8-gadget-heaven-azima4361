@@ -1,0 +1,29 @@
+ [
+      {
+        "category_id": 1,
+        "category_name": "Computers",
+        "products": ["MacBook Pro", "Dell XPS 15"]
+      },
+      {
+        "category_id": 2,
+        "category_name": "Phones",
+        "products": ["iPhone 14 Pro", "Samsung Galaxy S23"]
+      },
+      {
+        "category_id": 3,
+        "category_name": "Smart Watches",
+        "products": ["Apple Watch Series 9", "Samsung Galaxy Watch 6"]
+      },
+      {
+        "category_id": 4,
+        "category_name": "Chargers",
+        "products": ["Anker PowerPort III", "Apple MagSafe Charger"]
+      },
+      {
+        "category_id": 5,
+        "category_name": "Power Banks",
+        "products": ["RAVPower 20000mAh", "Anker PowerCore 10000mAh"]
+      }
+    ]
+  
+  

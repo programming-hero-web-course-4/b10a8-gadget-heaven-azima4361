@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 const Dashboard = () => {
     return (
         <div>
-            dashboard
+            <h1>dashboard</h1>
         </div>
     );
 };

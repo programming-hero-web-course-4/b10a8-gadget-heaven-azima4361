@@ -4,8 +4,8 @@ import { LiaHeart } from "react-icons/lia";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-purple-500 text-white container mx-auto py-5 px-20">
-  <div className="navbar-start">
+        <div className="navbar bg-purple-500 text-white mx-auto py-5 px-20 mx-w-[1440px] rounded-xl w-11/12">
+  <div className="navbar-start ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg
@@ -33,7 +33,7 @@ const Navbar = () => {
     <Link to='/' className=" text-3xl font-bold">Gadget Heaven</Link>
   </div>
   <div className="navbar-center hidden lg:flex ">
-    <ul className="menu menu-horizontal px-1 gap-5 text-lg">
+    <ul className="menu menu-horizontal px-1 gap-8 text-lg">
       <Link to='/'>Home</Link>
       <Link to='/brands'>Brands</Link>
       <Link to='/statistics'>Statistics</Link>
