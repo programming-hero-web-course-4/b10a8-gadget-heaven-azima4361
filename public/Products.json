@@ -1,6 +1,6 @@
  [
       {
-        "product_id": 1,
+        "product_id": "P001",
         "product_title": "MacBook Pro",
         "product_image": "https://i.ibb.co.com/5nV74fk/computer-1.png",
         "category": "Computers",
@@ -17,7 +17,7 @@
         "brand": "Apple"
       },
       {
-        "product_id": 2,
+        "product_id": "P002",
         "product_title": "Dell XPS 13",
         "product_image": "https://i.ibb.co.com/853hgRj/computer-2.jpg",
         "category": "Computers",
@@ -34,7 +34,7 @@
         "brand": "Dell"
       },
       {
-        "product_id": 3,
+        "product_id": "P003",
         "product_title": "Samsung Galaxy S23",
         "product_image": "https://i.ibb.co.com/LrMc1vV/phone-1.jpg",
         "category": "Phones",
@@ -51,7 +51,7 @@
         "brand": "Samsung"
       },
       {
-        "product_id": 4,
+        "product_id": "P004",
         "product_title": "iPhone 15 Pro",
         "product_image": "https://i.ibb.co.com/TgsDYZr/phone-2.jpg",
         "category": "Phones",
@@ -68,7 +68,7 @@
         "brand": "Apple"
       },
       {
-        "product_id": 5,
+        "product_id": "P005",
         "product_title": "Apple Watch Series 9",
         "product_image": "https://i.ibb.co.com/YkvySnB/watch-1.jpg",
         "category": "Smart Watches",
@@ -84,7 +84,7 @@
         "brand": "Apple"
       },
       {
-        "product_id": 6,
+        "product_id": "P006",
         "product_title": "Samsung Galaxy Watch 6",
         "product_image": "https://i.ibb.co.com/bgPrJws/watch-2.jpg",
         "category": "Smart Watches",
@@ -100,7 +100,7 @@
         "brand": "Samsung"
       },
       {
-        "product_id": 7,
+        "product_id": "P007",
         "product_title": "Anker PowerPort III",
         "product_image": "https://i.ibb.co.com/M8s0KZF/charger-1.jpg",
         "category": "Chargers",
@@ -116,7 +116,7 @@
         "brand": "Anker"
       },
       {
-        "product_id": 8,
+        "product_id": "P008",
         "product_title": "RAVPower 20000mAh",
         "product_image": "https://i.ibb.co.com/jymqxQg/charger-2.jpg",
         "category": "Power Banks",
@@ -132,7 +132,7 @@
         "brand": "RAVPower"
       },
       {
-        "product_id": 9,
+        "product_id": "P009",
         "product_title": "Belkin BoostCharge Pro",
         "product_image": "https://i.ibb.co.com/vc7vJRX/powerbank-1.jpg",
         "category": "Chargers",
@@ -148,7 +148,7 @@
         "brand": "Belkin"
       },
       {
-        "product_id": 10,
+        "product_id": "P010",
         "product_title": "Xiaomi Mi Power Bank 3",
         "product_image": "https://i.ibb.co.com/WkD2C5s/powerbank-2.jpg",
         "category": "Power Banks",

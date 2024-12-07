@@ -6,19 +6,19 @@ import { useEffect, useState } from "react";
 
 const ProductContainer = () => {
     const {category_name}= useParams();
-    const product = useLoaderData();
+    const data = useLoaderData();
     const [products,setProduct]=useState([]);
 
     useEffect(()=>{
         if(category_name){
-            const filterByCategoryname= product.filter(
+            const filterByCategoryname= data.filter(
                 (product)=>product.category === category_name,
             );
             setProduct(filterByCategoryname);
         } else {
-            setProduct(product);
+            setProduct(data);
         }
-    }, [category_name,product]);
+    }, [category_name,data]);
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {products.map((product)=>(
