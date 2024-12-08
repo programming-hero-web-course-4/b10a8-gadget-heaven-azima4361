@@ -1,6 +1,11 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import Rating from "./Rating";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { CartContext } from "../contexts/CartContext";
+import { WishContext } from "../contexts/WishContext";
+import { useContext } from "react";
+import { PriceContext } from "../contexts/PriceContext";
 
 const Details_card = () => {
     const data = useLoaderData();
@@ -8,6 +13,13 @@ const Details_card = () => {
     const product = data.find((product) => product.product_id === product_id);
     const {product_title,product_image, price,availability,description,specification,rating,
     } = product;
+
+    let [cart,setCart]= useContext(CartContext);
+ let [newPrice, setPrice]= useContext(PriceContext);
+  let [wishlist,setWish]= useContext(WishContext);
+  const handleCart = (product)=>{
+    const newPrice = myPrice + product.price;
+  }
     return (
         <div className="relative -top-56 mx-auto max-w-[1440px] rounded-xl bg-white w-4/5 flex justify-center items-center gap-10 p-10 border-white border mb-0">
             <div className="  w-1/2">

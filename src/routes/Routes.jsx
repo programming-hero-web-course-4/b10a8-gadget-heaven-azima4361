@@ -4,6 +4,9 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import ProductContainer from "../components/ProductContainer";
 import Details from "../pages/Details";
+import Dashboard from "../pages/Dashboard";
+import Wishlist from "../components/Wishlist";
+import Cart from "../components/Cart";
 
 const routes = createBrowserRouter([
     {
@@ -32,6 +35,20 @@ const routes = createBrowserRouter([
             element:<Details></Details>,
             loader:()=> fetch("../Products.json"),
         },
+        {
+            path:"/dashboard",
+            element:<Dashboard></Dashboard>,
+            children:[
+                {
+                    path:"/dashboard/cart",
+                    element:<Cart></Cart>,
+                },
+                {
+                    path:"/dashboard/wishlist",
+                    element:<Wishlist></Wishlist>,
+                },
+            ]
+        }
     ]
 },
 ])

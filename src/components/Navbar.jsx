@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { LiaHeart } from "react-icons/lia";
+import { useContext } from "react";
+import { WishContext } from "../contexts/WishContext";
+import { CartContext } from "../contexts/CartContext";
+import { PriceContext } from "../contexts/PriceContext";
 
 const Navbar = () => {
+  const [cart,setCart]= useContext(CartContext);
+  const [price,setPrice]=useContext(PriceContext);
+  const [wishlist,setWish]= useContext(WishContext);
+
     return (
         <div className="navbar bg-purple-500 text-white mx-auto py-5 px-20 mx-w-[1440px] rounded-xl w-11/12">
   <div className="navbar-start ">
@@ -41,8 +49,12 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end gap-5">
-    <button className="text-lg rounded-full bg-slate-200 p-2 text-black"><FaShoppingCart  /></button>
+    <Link to="/dashboard/cart">
+    <button className="text-lg rounded-full bg-slate-200 p-2 text-black"><FaShoppingCart  /></button></Link>
+    <Link to="/dashboard/wishlist">
     <button className="text-lg rounded-full bg-slate-200 p-2 text-black"> <LiaHeart /></button>
+    </Link>
+    
   
  
   </div>
