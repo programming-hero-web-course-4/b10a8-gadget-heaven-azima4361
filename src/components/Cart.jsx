@@ -5,6 +5,7 @@ import Modal from "./Modal";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import CartCard from "./CartCard";
+import { PiArrowsDownUpBold } from "react-icons/pi";
 
 
 const Cart = () => {
@@ -22,11 +23,17 @@ const handleSortByPrice =()=>{
 }
     return (
         <div className="mx-auto max-w-[1440px] mt-24 ">
-            <div className="mx-auto flex justify-center items-center gap-20">
-                <p>Cart</p>
-                <div className="flex justify-center items-center gap-7">
-                <p>Total Cost: $</p>
-                <button onClick={handleSortByPrice}>Sort by Price</button>
+            <div className="mx-auto flex justify-between items-center w-3/4">
+                <p className="text-2xl font-bold">Cart</p>
+                <div className="flex justify-center items-center gap-9">
+                <p className="text-2xl font-bold">Total Cost: ${price}</p>
+                <div className="flex justify-center items-center">
+                   
+                    <button className="btn rounded-full border border-purple-600 bg-white" onClick={handleSortByPrice}>Sort by Price<PiArrowsDownUpBold /> </button>
+                    
+                    
+                </div>
+                
                 <Modal></Modal>
             </div>
             </div>

@@ -6,6 +6,9 @@ import { CartContext } from "../contexts/CartContext";
 import { WishContext } from "../contexts/WishContext";
 import { useContext } from "react";
 import { PriceContext } from "../contexts/PriceContext";
+import AddToCart from "./AddtoCart";
+import { LiaHeart } from "react-icons/lia";
+import { FaHeart } from "react-icons/fa";
 
 const Details_card = () => {
     const data = useLoaderData();
@@ -15,13 +18,52 @@ const Details_card = () => {
     } = product;
 
     let [cart,setCart]= useContext(CartContext);
- let [newPrice, setPrice]= useContext(PriceContext);
+ let [myPrice, setPrice]= useContext(PriceContext);
   let [wishlist,setWish]= useContext(WishContext);
   const handleCart = (product)=>{
     const newPrice = myPrice + product.price;
+  
+  if (cart.some((p) => p.product_id === product.product_id)) {
+    toast.error(`${product.product_title} is already added to cart`, {
+      position: "top-center",
+      autoClose: 2000,
+      theme: "light",
+      className: "font-bold",
+    });
+    return;
+  } 
+  setCart((prevCart)=>[...prevCart,product]);
+  setPrice(newPrice);
+  toast.success(`${product.product_title} is added to cart`,{
+    position:"top-center",
+    autoClose:2000,
+    theme:"light",
+    className:"font-bold",
+  })
+}
+
+  const handleWish =(product)=>{
+    if(wishlist.some((p)=>p.product_id===product.product_id)){
+        toast.error(`${product.product_title} is already added to wishlist`, {
+            position: "top-center",
+            autoClose: 2000,
+            theme: "light",
+            className: "font-bold",
+          });
+          return;
+    } else{
+        wishlist=(prevWishList)=>[...prevWishList,product];
+        setWish(wishlist);
+        toast.success(`${product.product_title} is added to wishlist`, {
+            position: "top-center",
+            autoClose: 2000,
+            theme: "light",
+            className: "font-bold",
+          });
+    }
   }
     return (
-        <div className="relative -top-56 mx-auto max-w-[1440px] rounded-xl bg-white w-4/5 flex justify-center items-center gap-10 p-10 border-white border mb-0">
+        <div className="relative -top-28 mx-auto max-w-[1440px] rounded-xl bg-white w-4/5 flex justify-center items-center gap-10 p-10 border-white border mb-0">
             <div className="  w-1/2">
                 <img className="rounded-xl" src={product_image} alt="" />
             </div>
@@ -39,8 +81,15 @@ const Details_card = () => {
                     ))}
                 </ol>
                 <p className="font-bold">Ratings: <Rating rating={rating}></Rating></p>
+                <div className="flex gap-5">
+                    <AddToCart product={product} isChosen={cart.some((p)=>p.product_id=== product.product_id)} handleCart={handleCart}></AddToCart>
+                    <button onClick={()=>handleWish(product)} className="btn rounded-full bg-white text-xl" disabled={wishlist.some((p)=> p.product_id === product.product_id)}>{wishlist.some((p)=>p.product_id === product.product_id)?<FaHeart />:<LiaHeart />}</button>
+
+                </div>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
+        
     );
 };
 
