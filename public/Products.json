@@ -4,7 +4,7 @@
         "product_title": "MacBook Pro",
         "product_image": "https://i.ibb.co.com/5nV74fk/computer-1.png",
         "category": "Computers",
-        "price": 1999.99,
+        "price": 2000,
         "description": "The Apple MacBook Pro is a powerful laptop with the M1 chip.",
         "specification": [
           "16-inch Retina Display",
@@ -21,7 +21,7 @@
         "product_title": "Dell XPS 13",
         "product_image": "https://i.ibb.co.com/853hgRj/computer-2.jpg",
         "category": "Computers",
-        "price": 1199.99,
+        "price": 1200,
         "description": "The Dell XPS 13 is a sleek and portable laptop with a 4K display.",
         "specification": [
           "13.3-inch 4K UHD Display",
@@ -38,7 +38,7 @@
         "product_title": "Samsung Galaxy S23",
         "product_image": "https://i.ibb.co.com/LrMc1vV/phone-1.jpg",
         "category": "Phones",
-        "price": 799.99,
+        "price": 800,
         "description": "The latest Samsung Galaxy S23 with cutting-edge features.",
         "specification": [
           "6.1-inch AMOLED Display",
@@ -55,7 +55,7 @@
         "product_title": "iPhone 15 Pro",
         "product_image": "https://i.ibb.co.com/TgsDYZr/phone-2.jpg",
         "category": "Phones",
-        "price": 999.99,
+        "price": 1000,
         "description": "The iPhone 15 Pro offers exceptional performance and design.",
         "specification": [
           "6.1-inch Super Retina XDR Display",
@@ -72,7 +72,7 @@
         "product_title": "Apple Watch Series 9",
         "product_image": "https://i.ibb.co.com/YkvySnB/watch-1.jpg",
         "category": "Smart Watches",
-        "price": 399.99,
+        "price": 400,
         "description": "Stay connected with the latest Apple Watch Series 9.",
         "specification": [
           "1.9-inch Always-On Retina Display",
@@ -88,7 +88,7 @@
         "product_title": "Samsung Galaxy Watch 6",
         "product_image": "https://i.ibb.co.com/bgPrJws/watch-2.jpg",
         "category": "Smart Watches",
-        "price": 349.99,
+        "price": 350,
         "description": "A smart companion for your daily fitness and productivity needs.",
         "specification": [
           "1.4-inch AMOLED Display",
@@ -104,7 +104,7 @@
         "product_title": "Anker PowerPort III",
         "product_image": "https://i.ibb.co.com/M8s0KZF/charger-1.jpg",
         "category": "Chargers",
-        "price": 29.99,
+        "price": 30,
         "description": "Fast and compact charger compatible with most devices.",
         "specification": [
           "USB-C Power Delivery",
@@ -120,7 +120,7 @@
         "product_title": "RAVPower 20000mAh",
         "product_image": "https://i.ibb.co.com/jymqxQg/charger-2.jpg",
         "category": "Power Banks",
-        "price": 49.99,
+        "price": 50,
         "description": "High-capacity power bank for charging on the go.",
         "specification": [
           "20000mAh capacity",
@@ -136,7 +136,7 @@
         "product_title": "Belkin BoostCharge Pro",
         "product_image": "https://i.ibb.co.com/vc7vJRX/powerbank-1.jpg",
         "category": "Chargers",
-        "price": 39.99,
+        "price": 40,
         "description": "Premium MagSafe wireless charging pad for Apple devices.",
         "specification": [
           "15W MagSafe Charging",
@@ -152,7 +152,7 @@
         "product_title": "Xiaomi Mi Power Bank 3",
         "product_image": "https://i.ibb.co.com/WkD2C5s/powerbank-2.jpg",
         "category": "Power Banks",
-        "price": 39.99,
+        "price": 40,
         "description": "Compact and reliable power bank with multiple ports.",
         "specification": [
           "20000mAh capacity",

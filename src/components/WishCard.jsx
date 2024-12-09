@@ -1,10 +1,9 @@
 import { MdDeleteForever } from "react-icons/md";
 
-const CartCard = ({cart,handleDeleteItem}) => {
+const WishCard = ({wish,handleDeleteWish}) => {
     const {product_title,product_image, price,availability,description,specification,rating,
-    } = cart;
+    } = wish;
     return (
-       
         <div className="mx-auto  w-3/4  gap-10  border rounded-xl border-purple-500 bg-white p-5 mt-10 flex justify-between"> 
         <div className="flex justify-center items-center gap-10">
             <div>
@@ -20,16 +19,14 @@ const CartCard = ({cart,handleDeleteItem}) => {
         </div>
         
        
-        <div className="text-xl  text-red-600 ">
-        <button onClick={()=>handleDeleteItem(cart)}><MdDeleteForever /></button>
+        <div className="text-xl  text-red-600">
+        <button onClick={()=>handleDeleteWish(wish)}><MdDeleteForever /></button>
         </div>
         
        
         
     </div>
-      
-        
     );
 };
 
-export default CartCard;
+export default WishCard;

@@ -7,11 +7,15 @@ import Details from "../pages/Details";
 import Dashboard from "../pages/Dashboard";
 import Wishlist from "../components/Wishlist";
 import Cart from "../components/Cart";
+import Statistics from "../pages/Statistics";
+import Error from "../components/Error";
 
 const routes = createBrowserRouter([
     {
     path:'/',
     element:<MainLayout></MainLayout>,
+    errorElement:<Error></Error>,
+    loader:()=>fetch("../Category.json"),
     children:[
         {
             path:"/",
@@ -47,9 +51,13 @@ const routes = createBrowserRouter([
                     path:"/dashboard/wishlist",
                     element:<Wishlist></Wishlist>,
                 },
-            ]
-        }
-    ]
+            ],
+        },
+        {
+            path:"/stat",
+            element:<Statistics></Statistics>,
+        },
+    ],
 },
 ])
 export default routes

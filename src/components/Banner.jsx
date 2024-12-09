@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div className="relative rounded-xl border p-2 -top-36  ">
             <div>
-                <div className="flex flex-col items-center gap-7 rounded-xl bg-purple-500 text-center text-white py-20">
+                <div className="flex flex-col items-center gap-7 rounded-xl bg-purple-600 text-center text-white py-20">
                     <p className="w-4/5 md:w-3/4 text-xl md:text-5xl font-bold mt-12">
                     Upgrade Your Tech Accessorize with Gadget Heaven Accessories
                     </p>

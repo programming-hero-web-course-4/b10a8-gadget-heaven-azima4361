@@ -26,9 +26,9 @@ const MainLayout = () => {
             </div>
            
             {/* footer  */}
-            {/* <div className='mt-10'> */}
+            <div className='mt-10 '>
             <Footer></Footer>
-            {/* </div> */}
+            </div>
             
             </CartContext.Provider>
             </WishContext.Provider>
