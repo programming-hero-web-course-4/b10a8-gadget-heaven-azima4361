@@ -14,7 +14,7 @@ const Dashboard = () => {
             <Dynamic_banner heading={"Dashboard"} subHeading={"Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!"}>
             
             </Dynamic_banner>
-            <div className="-mt-32">
+            <div className="-mt-20 md:-mt-32">
             <ToggleButton ></ToggleButton>
             </div>
             </div>

@@ -22,12 +22,12 @@ const handleSortByPrice =()=>{
     setCart((prevItem)=>[...prevItem].sort((a,b)=> b.price- a.price));
 }
     return (
-        <div className="mx-auto max-w-[1440px] mt-24 ">
-            <div className="mx-auto flex justify-between items-center w-3/4">
+        <div className="mx-auto max-w-[1440px] mt-12 md:mt-24 ">
+            <div className="mx-auto flex flex-col md:flex-row justify-between items-center md:w-3/4">
                 <p className="text-2xl font-bold">Cart</p>
-                <div className="flex justify-center items-center gap-9">
+                <div className="flex flex-col md:flex-row justify-center items-center gap-9">
                 <p className="text-2xl font-bold">Total Cost: ${price}</p>
-                <div className="flex justify-center items-center">
+                <div className="flex flex-col md:flex-row justify-center items-center">
                    
                     <button className="btn rounded-full border border-purple-600 bg-white" onClick={handleSortByPrice}>Sort by Price<PiArrowsDownUpBold /> </button>
                     

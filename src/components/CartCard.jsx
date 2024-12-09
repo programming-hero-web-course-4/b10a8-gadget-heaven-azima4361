@@ -5,8 +5,8 @@ const CartCard = ({cart,handleDeleteItem}) => {
     } = cart;
     return (
        
-        <div className="mx-auto  w-3/4  gap-10  border rounded-xl border-purple-500 bg-white p-5 mt-10 flex justify-between"> 
-        <div className="flex justify-center items-center gap-10">
+        <div className="mx-auto  w-3/4  gap-10  border rounded-xl border-purple-500 bg-white p-5 mt-10 flex flex-col md:flex-row justify-between"> 
+        <div className="flex flex-col md:flex-row justify-center items-center gap-10">
             <div>
             <img className="w-40 rounded-xl border border-purple-300 bg-white" src={product_image} alt="" />
             </div>

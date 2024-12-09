@@ -2,12 +2,12 @@
 
 const Footer = () => {
     return (
-      <div className="container mx-auto   text-center  py-10 " >
-        <div className="space-y-3 w-1/2 mx-auto mb-7">
+      <div className="container mx-auto mt-10  text-center py-10 " >
+        <div className="space-y-3 w-4/5 md:w-1/2 mx-auto mb-7">
           <h3 className="text-3xl font-bold">Gadget Heaven</h3>
           <p className="">Leading the way in cutting-edge technology and innovation.</p>
         </div>
- <footer className="footer  p-10 w-4/5 mx-auto flex justify-around  border-t-2 ">
+ <footer className="footer pt-8   md:p-10 w-4/5 mx-auto flex flex-col md:flex-row justify-around  border-t-2 ">
   <nav>
     <h6 className="footer-title text-black">Services</h6>
     <a className="link link-hover">Product Support</a>

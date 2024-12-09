@@ -63,8 +63,8 @@ const Details_card = () => {
     }
   }
     return (
-        <div className="relative -top-28 mx-auto max-w-[1440px] rounded-xl bg-white w-4/5 flex justify-center items-center gap-10 p-10 border-white border mb-0">
-            <div className="  w-1/2">
+        <div className="relative -top-16 md:-top-28 mx-auto max-w-[1440px] rounded-xl bg-white w-11/12 md:w-4/5 flex flex-col md:flex-row justify-center items-center gap-10 p-4 md:p-10 border-white border mb-0">
+            <div className="  md:w-1/2">
                 <img className="rounded-xl" src={product_image} alt="" />
             </div>
             <div className="space-y-2">

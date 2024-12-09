@@ -16,7 +16,7 @@ const Home = () => {
             </div>
 
             <div className="mx-auto -mt-60 max-w-[1440px] w-11/12">
-                <p className="text-center text-4xl font-bold mb-20">Explore Cutting-Edge Gadgets</p>
+                <p className="text-center text-2xl md:text-3xl lg:text-4xl font-bold mb-10 md:mb-20">Explore Cutting-Edge Gadgets</p>
 
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
                     <div className="md:col-span-1 ">
