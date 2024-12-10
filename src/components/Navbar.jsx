@@ -57,7 +57,9 @@ const Navbar = ({categories=[]}) => {
       <li>
        <NavLink to="/dashboard" className={({isActive}) =>`${isActive? "rounded-full bg-purple-800 px-5 text-white" :"text-black hover:rounded-full hover:bg-purple-700 hover:text-white"}`}>Dashboard</NavLink>
       </li>
-     
+      <li>
+       <NavLink to="/blogs" className={({isActive}) =>`${isActive? "rounded-full bg-purple-800 px-5 text-white" :"text-black hover:rounded-full hover:bg-purple-700 hover:text-white"}`}>Blogs</NavLink>
+      </li>
      
     </ul>
   </div>
@@ -90,6 +92,9 @@ const Navbar = ({categories=[]}) => {
       </li>
       <li>
        <NavLink to="/dashboard" className={({isActive}) =>`${isActive? "rounded-full bg-purple-800 px-5 text-white" :"text-black hover:rounded-full hover:bg-purple-700 hover:text-white"}`}>Dashboard</NavLink>
+      </li>
+      <li>
+       <NavLink to="/blogs" className={({isActive}) =>`${isActive? "rounded-full bg-purple-800 px-5 text-white" :"text-black hover:rounded-full hover:bg-purple-700 hover:text-white"}`}>Blogs</NavLink>
       </li>
       </ul>
     </div>

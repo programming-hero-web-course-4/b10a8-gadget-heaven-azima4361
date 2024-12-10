@@ -1,0 +1,94 @@
+ [
+      {
+        "id": 1,
+        "title": "Top 10 Gadgets of 2024",
+        "image": "https://i.ibb.co.com/W50VpJy/blog1.jpg",
+        "author": "John Doe",
+        "category": "Technology",
+        "published_date": "2024-12-01",
+        "excerpt": "Discover the top 10 gadgets of 2024 that are making waves in the tech world!"
+      },
+      {
+        "id": 2,
+        "title": "How to Choose the Perfect Smartphone",
+        "image": "https://i.ibb.co.com/9gxXcrp/blog3.jpg",
+        "author": "Jane Smith",
+        "category": "Guides",
+        "published_date": "2024-11-25",
+        "excerpt": "A step-by-step guide to selecting the best smartphone for your needs and budget."
+      },
+      {
+        "id": 3,
+        "title": "The Future of Wearable Technology",
+        "image": "https://i.ibb.co.com/GdhRMqj/blog2.jpg",
+        "author": "Alice Johnson",
+        "category": "Innovation",
+        "published_date": "2024-11-15",
+        "excerpt": "An exploration of where wearable tech is headed and its impact on our daily lives."
+      },
+      {
+        "id": 4,
+        "title": "5 Must-Have Smart Home Devices",
+        "image": "https://i.ibb.co.com/ZJJkmLx/blog5.jpg",
+        "author": "Mark Lee",
+        "category": "Home",
+        "published_date": "2024-10-20",
+        "excerpt": "Upgrade your living space with these five must-have smart home devices."
+      },
+      {
+        "id": 5,
+        "title": "Gaming Consoles: PS5 vs Xbox Series X",
+        "image": "https://i.ibb.co.com/TwVCWxw/blog8.jpg",
+        "author": "Emily Carter",
+        "category": "Gaming",
+        "published_date": "2024-10-10",
+        "excerpt": "A detailed comparison of the PS5 and Xbox Series X to help you choose the best console."
+      },
+      {
+        "id": 6,
+        "title": "Best Budget Laptops for Students",
+        "image": "https://i.ibb.co.com/KwZ8dMT/blog6.jpg",
+        "author": "Sophia Brown",
+        "category": "Laptops",
+        "published_date": "2024-09-15",
+        "excerpt": "A curated list of affordable laptops perfect for students and professionals alike."
+      },
+      {
+        "id": 7,
+        "title": "Exploring the World of VR Headsets",
+        "image": "https://i.ibb.co.com/BK1Z5Cb/blog9.jpg",
+        "author": "Michael Zhang",
+        "category": "Virtual Reality",
+        "published_date": "2024-08-30",
+        "excerpt": "A deep dive into the latest VR headsets and their capabilities."
+      },
+      {
+        "id": 8,
+        "title": "Top Features of the Latest Smartwatches",
+        "image": "https://i.ibb.co.com/ZJJkmLx/blog5.jpg",
+        "author": "Laura Green",
+        "category": "Wearables",
+        "published_date": "2024-08-15",
+        "excerpt": "Discover the standout features of the latest generation of smartwatches."
+      },
+      {
+        "id": 9,
+        "title": "Drones: Beginner's Guide to Flying",
+        "image": "https://i.ibb.co.com/W50VpJy/blog1.jpg",
+        "author": "Daniel White",
+        "category": "Drones",
+        "published_date": "2024-07-20",
+        "excerpt": "Everything you need to know about flying drones safely and effectively."
+      },
+      {
+        "id": 10,
+        "title": "Top AI-Powered Tools for Productivity",
+        "image": "https://i.ibb.co.com/KwZ8dMT/blog6.jpg",
+        "author": "Olivia Davis",
+        "category": "AI Tools",
+        "published_date": "2024-06-15",
+        "excerpt": "Boost your productivity with these top AI-powered tools available in 2024."
+      }
+    ]
+  
+  

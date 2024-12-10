@@ -9,6 +9,7 @@ import Wishlist from "../components/Wishlist";
 import Cart from "../components/Cart";
 import Statistics from "../pages/Statistics";
 import Error from "../components/Error";
+import Blogs from "../pages/Blogs";
 
 const routes = createBrowserRouter([
     {
@@ -56,6 +57,11 @@ const routes = createBrowserRouter([
         {
             path:"/stat",
             element:<Statistics></Statistics>,
+        },
+        {
+            path:"/blogs",
+            element:<Blogs></Blogs>,
+            loader:()=> fetch("../Blogs.json"),
         },
     ],
 },

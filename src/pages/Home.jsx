@@ -2,12 +2,17 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import BannerImg from "../components/BannerImg";
 import Category from "../components/Category";
+import { Helmet } from "react-helmet";
 
 
 const Home = () => {
     const categories=useLoaderData();
     return (
         <div className="max-w-[1440px]mx-auto">
+             <Helmet>
+        <title>Home||Gadget heaven</title>
+        <meta name="description" content="Helmet application" />
+    </Helmet>
             <div>
                 <Banner></Banner>
             </div>

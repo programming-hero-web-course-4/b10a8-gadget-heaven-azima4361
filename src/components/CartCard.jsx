@@ -20,7 +20,7 @@ const CartCard = ({cart,handleDeleteItem}) => {
         </div>
         
        
-        <div className="text-xl  text-red-600 ">
+        <div className="text-center md:text-right text-xl  text-red-600 ">
         <button onClick={()=>handleDeleteItem(cart)}><MdDeleteForever /></button>
         </div>
         
