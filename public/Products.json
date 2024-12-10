@@ -68,6 +68,23 @@
         "brand": "Apple"
       },
       {
+        "product_id": "P016",
+        "product_title": "Samsung Galaxy S23",
+        "product_image": "https://i.ibb.co.com/LrMc1vV/phone-1.jpg",
+        "category": "Phones",
+        "price": 800,
+        "description": "The latest Samsung Galaxy S23 with cutting-edge features.",
+        "specification": [
+          "6.1-inch AMOLED Display",
+          "Snapdragon 8 Gen 2",
+          "8GB RAM",
+          "256GB Storage"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "Samsung"
+      },
+      {
         "product_id": "P005",
         "product_title": "Apple Watch Series 9",
         "product_image": "https://i.ibb.co.com/YkvySnB/watch-1.jpg",
@@ -104,7 +121,7 @@
         "product_title": "Anker PowerPort III",
         "product_image": "https://i.ibb.co.com/M8s0KZF/charger-1.jpg",
         "category": "Chargers",
-        "price": 30,
+        "price": 300,
         "description": "Fast and compact charger compatible with most devices.",
         "specification": [
           "USB-C Power Delivery",
@@ -115,12 +132,29 @@
         "rating": 4.5,
         "brand": "Anker"
       },
+      
       {
         "product_id": "P008",
         "product_title": "RAVPower 20000mAh",
         "product_image": "https://i.ibb.co.com/jymqxQg/charger-2.jpg",
         "category": "Power Banks",
-        "price": 50,
+        "price": 500,
+        "description": "High-capacity power bank for charging on the go.",
+        "specification": [
+          "20000mAh capacity",
+          "Dual USB-A ports",
+          "Fast charging"
+        ],
+        "availability": true,
+        "rating": 4.3,
+        "brand": "RAVPower"
+      },
+      {
+        "product_id": "P015",
+        "product_title": "RAVPower 20000mAh",
+        "product_image": "https://i.ibb.co.com/jymqxQg/charger-2.jpg",
+        "category": "Power Banks",
+        "price": 500,
         "description": "High-capacity power bank for charging on the go.",
         "specification": [
           "20000mAh capacity",
@@ -136,7 +170,7 @@
         "product_title": "Belkin BoostCharge Pro",
         "product_image": "https://i.ibb.co.com/vc7vJRX/powerbank-1.jpg",
         "category": "Chargers",
-        "price": 40,
+        "price": 400,
         "description": "Premium MagSafe wireless charging pad for Apple devices.",
         "specification": [
           "15W MagSafe Charging",
@@ -152,7 +186,7 @@
         "product_title": "Xiaomi Mi Power Bank 3",
         "product_image": "https://i.ibb.co.com/WkD2C5s/powerbank-2.jpg",
         "category": "Power Banks",
-        "price": 40,
+        "price": 600,
         "description": "Compact and reliable power bank with multiple ports.",
         "specification": [
           "20000mAh capacity",
@@ -162,6 +196,74 @@
         "availability": true,
         "rating": 4.2,
         "brand": "Xiaomi"
+      },
+      {
+        "product_id": "P011",
+        "product_title": "MacBook Pro",
+        "product_image": "https://i.ibb.co.com/p3ndNRL/computer6.jpg",
+        "category": "Computers",
+        "price": 2000,
+        "description": "The Apple MacBook Pro is a powerful laptop with the M1 chip.",
+        "specification": [
+          "16-inch Retina Display",
+          "Apple M1 Chip",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "Apple"
+      },
+      {
+        "product_id": "P012",
+        "product_title": "MacBook Pro",
+        "product_image": "https://i.ibb.co.com/QdvHKfh/computer5.jpg",
+        "category": "Computers",
+        "price": 2000,
+        "description": "The Apple MacBook Pro is a powerful laptop with the M1 chip.",
+        "specification": [
+          "16-inch Retina Display",
+          "Apple M1 Chip",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "Apple"
+      },
+      {
+        "product_id": "P013",
+        "product_title": "MacBook Pro",
+        "product_image": "https://i.ibb.co.com/g3fJ7Dq/computer4.jpg",
+        "category": "Computers",
+        "price": 2000,
+        "description": "The Apple MacBook Pro is a powerful laptop with the M1 chip.",
+        "specification": [
+          "16-inch Retina Display",
+          "Apple M1 Chip",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "Apple"
+      },
+      {
+        "product_id": "P014",
+        "product_title": "MacBook Pro",
+        "product_image": "https://i.ibb.co.com/dP0TZzx/computer3.jpg",
+        "category": "Computers",
+        "price": 2000,
+        "description": "The Apple MacBook Pro is a powerful laptop with the M1 chip.",
+        "specification": [
+          "16-inch Retina Display",
+          "Apple M1 Chip",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "Apple"
       }
     ]
   
