@@ -8,7 +8,7 @@ const Blogs = () => {
     return (
         <div className="flex flex-col ">
             <Helmet>
-        <title>Blogs||Gadget heaven</title>
+        <title>Blogs || Gadget heaven</title>
         <meta name="description" content="Helmet application" />
     </Helmet>
         <div className=" bg-purple-600">

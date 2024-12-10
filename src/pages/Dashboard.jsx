@@ -12,7 +12,7 @@ const Dashboard = () => {
     return (
         <div className="flex flex-col ">
             <Helmet>
-        <title>Dashboard||Gadget heaven</title>
+        <title>Dashboard || Gadget heaven</title>
         <meta name="description" content="Helmet application" />
     </Helmet>
         <div className=" bg-purple-600">

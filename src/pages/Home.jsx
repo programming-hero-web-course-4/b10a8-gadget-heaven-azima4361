@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="max-w-[1440px]mx-auto">
              <Helmet>
-        <title>Home||Gadget heaven</title>
+        <title>Home || Gadget heaven</title>
         <meta name="description" content="Helmet application" />
     </Helmet>
             <div>

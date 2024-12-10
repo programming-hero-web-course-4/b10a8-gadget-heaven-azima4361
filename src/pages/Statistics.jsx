@@ -6,7 +6,7 @@ const Statistics = () => {
     return (
         <div>
             <Helmet>
-        <title>Statistics||Gadget heaven</title>
+        <title>Statistics || Gadget heaven</title>
         <meta name="description" content="Helmet application" />
     </Helmet>
             <div>

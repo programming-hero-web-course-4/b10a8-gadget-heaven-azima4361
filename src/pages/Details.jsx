@@ -10,7 +10,7 @@ const Details = () => {
     return (
         <div>
             <Helmet>
-        <title>Details||Gadget heaven</title>
+        <title>Details || Gadget heaven</title>
         <meta name="description" content="Helmet application" />
     </Helmet>
             <div className="">
