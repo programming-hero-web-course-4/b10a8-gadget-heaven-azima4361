@@ -5,9 +5,11 @@ const Rating = ({rating}) => {
         <div className="flex justify-start items-center gap-5">
            <ReactStars
     count={5}
-    onChange={rating}
-    size={24}
+    value={rating}
+    size={30}
     activeColor="#ffd700"
+    isHalf={true}
+    edit={false}
   />
   <p>({rating})</p>
             

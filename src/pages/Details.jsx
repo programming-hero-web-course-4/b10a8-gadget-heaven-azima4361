@@ -1,8 +1,12 @@
 import { Helmet } from "react-helmet";
 import Details_card from "../components/Details_card";
 import Dynamic_banner from "../components/Dynamic_banner";
+import { useEffect } from "react";
 
 const Details = () => {
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    },[]);
     return (
         <div>
             <Helmet>
